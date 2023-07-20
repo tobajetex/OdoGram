@@ -175,7 +175,7 @@ form button:active{
     height:200px;
     border-radius:50%
 }
-modal card-content{
+modal .card-content{
 display:flex;
 justify-content:center;
 align-items:center;
