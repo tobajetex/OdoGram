@@ -101,11 +101,11 @@ footer p{
     max-width: 500px;
     height:60vh;
     position:fixed;
-    left:0;
+    left:50%;
     right:0;
-    top:0;
+    top:50%;
     bottom:0;
-    margin:auto;
+    transform: translate(-50%, -50%);
     padding:20px;
     background-color:#FFF5B8;
     border-radius:1em;
