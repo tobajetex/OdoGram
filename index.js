@@ -75,8 +75,8 @@ function mainFunct(){
     //Function to close the Modal
     
     function closeModal(){
+        modalCloseBtn.disabled = false
         modalCloseBtn.addEventListener("click",()=>{
-            modalCloseBtn.disabled = false
             modal.style.display = "none"
         })
 
