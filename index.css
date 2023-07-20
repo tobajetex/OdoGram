@@ -183,13 +183,12 @@ form button:active{
 .modal .card p{
     color:#164B60   
 }
-.modal ul {
-    text-align: left;
-    
 
-}
 .modal ul li{
     color:#160000;
+    padding:0.3em 0;
+    text-align: justify
+    
 }
 #card2-heading{
 text-decoration: underline     
