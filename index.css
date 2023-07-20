@@ -179,7 +179,7 @@ modal .card-content{
 display:flex;
 justify-content:center;
 align-items:center;
-    
+} 
 .modal .card h2{
     font-size: 30px;
     color:#164B60
