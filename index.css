@@ -99,7 +99,7 @@ footer p{
     flex-direction: column;
     width:80%;
     max-width: 500px;
-    height:500px;
+    height:60vh;
     position:fixed;
     left:0;
     right:0;
