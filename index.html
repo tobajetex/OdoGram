@@ -1,0 +1,107 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!-- App Container -->
+        <div class="app-container"></div>
+        
+         <!-- Header -->
+         
+        <header>
+             <img src="images/logo.png" alt="Oldagram logo">
+             <img src="images/user-avatar.png" alt ="user profile pic" >
+        </header>
+         <!-- Main Content -->
+        <main>
+            <section class="post">
+                <div class="first-div">
+                    <img src="images/avatar-vangogh.jpg" alt="vangogh photo" class="user-img">
+                    <p><b>Vincent van Gogh</b><br>Zudert, Netherlands</p>
+                </div>
+                <div class="second-div"><img src="images/post-vangogh.jpg" alt="vangogh photo" class="posted-img"/></div>
+                <div>
+                    <div class="icons">
+                        <span><img src="images/icon-heart.png" alt="heart icon"/></span>
+                        <span><img src="images/icon-comment.png" alt="comment icon" /></span>
+                        <span><img src="images/icon-dm.png" alt="dm icon" /></span>
+                        
+                    </div>
+                    <p>21,492 likes</p>
+                    <p><b>vincey1853</b> just took a few mushrooms lol</p>
+                </div>
+            </section>
+            <section class="post">
+                <div class="first-div">
+                    <img src="images/avatar-courbet.jpg" alt="courbet photo" class="user-img">
+                    <p><b>Gustave Courbet</b><br>onans,France</p>
+                </div>
+                <div class="second-div"><img src="images/post-courbet.jpg" alt="" class="posted-img"/></div>
+                <div>
+                    <div class="icons">
+                        <span><img src="images/icon-heart.png" alt="heart icon" /></span>
+                        <span><img src="images/icon-comment.png" alt="comment icon" /></span>
+                        <span><img src="images/icon-dm.png" alt="dm icon" /></span>
+                        
+                    </div>
+                    <p>12,502 likes</p>
+                    <p><b>gus1819</b>gus1819 i'm feelin a bit stressed tbh</p>
+                </div>
+            </section>
+            <section class="post">
+                <div class="first-div">
+                    <img src="images/avatar-ducreux.jpg" alt="ducreux photo" class="user-img">
+                    <p><b>Vincent van Gogh</b><br>Zudert, Netherlands</p>
+                </div>
+                <div class="second-div"><img src="images/post-ducreux.jpg" alt="" 
+                class="posted-img"/></div>
+                <div>
+                    <div class="icons">
+                        <span><img src="images/icon-heart.png" alt=" heart icon" /></span>
+                        <span><img src="images/icon-comment.png" alt=" comment icon" /></span>
+                        <span><img src="images/icon-dm.png" alt="dm icon" /></span>
+                        
+                    </div>
+                    <p>15,137 likes</p>
+                    <p><b>jd1735</b>gm friends! which coin are YOU stacking up today?? post below and WAGMI!</p>
+                </div>
+            </section>
+        </main>
+        <section>
+             <!-- Modal Section -->
+            <div class="modal" id="modal">
+                <div class="modal-close-container" id="modal-close-container">
+                    <button class="modal-close-btn" id="modal-close-btn" disabled>X</button>
+                    </div>
+                <div class="modal-inner" id="modal-inner">
+                <h2> Sign up to continue</h2>
+                <form id="form">
+                    <input type="text" placeholder="Enter your First Name" aria-label="first Name" name="firstName" id="first-name" required />
+                    <input type="text" placeholder="Enter you Last Name" aria-label="first Name" name="lastName" id="last-name"required/>
+                    <input type="email" placeholder="Email" aria-label="first Name" name="email" id="email" required/>
+                    <input type="number" id="age" name="age" min="18" max="100" aria-label="age">
+                    <button id="submit-btn" disabled>Submit</button>
+                </form>
+                </div>
+            </div>
+        </section>
+        
+         <!-- Footer -->
+        
+        <footer>
+            <div>
+               <a href="www.facebook.com" target="_blank"> <i class="fab fa-square-facebook"></i></a>
+               <a href="www.instagram.com"target="_blank"> <i class="fab fa-square-instagram"></i></a>
+                <a href="www.twitter.com"target="_blank"><i class="fab fa-square-twitter"></i></a>
+            </div>
+            <p>&copy; 2023 SkillUp</p>
+        </footer>
+       
+        <script src="index.js"></script>
+    </body>
+</html>

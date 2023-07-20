@@ -1,0 +1,196 @@
+/* Global Style */
+* ,
+*:before,
+*:after {
+    box-sizing: border-box
+}
+
+html, body {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#675D50;
+}
+/* Header Styles */
+
+header,
+main,
+footer{
+    background:#fff;
+    padding:1em
+}
+
+.app-container {
+  padding-top: env(safe-area-inset-top); /* Adjust for phone's status bar */
+  padding-bottom: env(safe-area-inset-bottom); /* Adjust for phone's navigation bar */
+}
+header {
+    display:flex;
+    align-items: center
+}
+
+header img:first-child {
+    width:150px
+}
+
+header img:last-child {
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    margin-left:auto;
+}
+/* Main Content Styles */
+
+main section .first-div {
+    display:flex;
+    align-items: center;
+    gap:0.5em;   
+}
+
+main section:nth-child(2) {
+    margin:2em  0
+}
+
+main section .second-div img {
+    width:100%;
+}
+
+main section div:first-of-type img {
+    width:40px;
+    height:40px;
+    border-radius:50%
+}
+
+main section div .icons {
+    margin-top:1em
+    
+}
+
+main section div.icons img:hover {
+    background:red;
+    width:50px;
+}
+
+/* Footer Styles */
+footer div {
+    display:flex;
+    gap:0.5em;
+    font-size: 1.2rem;
+    justify-content: center;
+    border-top:2px solid ;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    padding-top:10px  
+}
+
+footer i {
+    color:#675D50
+}
+footer i:hover {
+    color:blue
+}
+footer p{
+    text-align: center;
+    font-weight: bold
+}
+
+/* Modal Styles */
+.modal {
+    display:none;
+    flex-direction: column;
+    width:80%;
+    max-width: 500px;
+    height:500px;
+    position:fixed;
+    left:0;
+    right:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    padding:20px;
+    background-color:#FFF5B8;
+    border-radius:1em;
+    box-shadow: 10px 9px 263px -24px rgba(0,0,0,0.75);  
+}
+
+.modal-close-container {
+    align-self: end; 
+}
+.modal-close-btn {
+    border-radius:50%;
+    border: unset;
+    font-weight: bold;
+    font-size: 20px;
+    background: transparent;
+    color:#675D50;
+}
+.modal-close-btn:hover,
+.modal-close-btn:active {
+    cursor:pointer ;  
+   
+}
+.modal-close-btn:disabled {
+    cursor: not-allowed
+}
+
+.modal-inner {
+    width: 100%;
+    margin-top:2em;
+    text-align: center
+}
+/* Form Style */
+
+form{
+    flex-direction: column;
+    display: flex;
+    gap:1em;
+}
+form input{
+    width: 100%;
+    padding:0.6em 1em;
+    border-radius:5px;   
+    font-family:inherit;
+    font-weight: bold;
+    border:unset;
+}
+form input[type="number"]{
+    width:100px; 
+}
+form button{
+ padding:0.6em 1em; 
+ font-family: inherit;
+ font-weight: bold ;
+ font-size: 1.2rem;
+ background:#675D50;
+ border:unset;
+ border-radius:5px;
+}
+form button:hover,
+form button:active{
+ background:transparent;
+ border:3px solid #675D50  
+}
+/* Card Style in Modal */
+.modal .card img{
+    width:200px;
+    height:200px;
+    border-radius:50%
+}
+.modal .card h2{
+    font-size: 30px;
+    color:#164B60
+}
+.modal .card p{
+    color:#164B60   
+}
+.modal ul {
+    text-align: left;
+    
+
+}
+.modal ul li{
+    color:#160000;
+}
+#card2-heading{
+text-decoration: underline     
+}
+
