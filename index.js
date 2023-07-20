@@ -23,6 +23,9 @@ firstNameInput.addEventListener("input" ,checkInputAndDisabledButton)
 lastNameInput.addEventListener("input" ,checkInputAndDisabledButton)
 emailInput.addEventListener("input" ,checkInputAndDisabledButton)
 ageSelection.addEventListener("input" ,checkInputAndDisabledButton)
+document.addEventListener("DOMContentLoaded", function () {
+ modalCloseBtn.disabled = true
+})
 // Main Function Trigger by the Submit button
 function mainFunct(){
     checkInputAndDisabledButton()
