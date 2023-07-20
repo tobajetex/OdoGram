@@ -98,9 +98,9 @@ footer p{
     display:none;
     flex-direction: column;
     width:80%;
-    max-width: 400px;
+    max-width:400px;
     height:500px;
-    min-height:70vh;
+    min-height:80vh;
     position:fixed;
     left:50%;
     right:0;
